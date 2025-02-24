@@ -14,8 +14,8 @@ sense.clear()
 sense.low_light = True
 
 # ThingSpeak Channel ID & Write Key
-channel_id = 2028393
-write_key = 'W8P9VCO2HRC1N717'
+channel_id = xxxx
+write_key = 'xxxx'
 channel = thingspeak.Channel(id=channel_id, api_key=write_key)
 
 # Arrays for Average Calculations
